@@ -1,0 +1,1019 @@
+fileFormatVersion: 2
+guid: 88531e7ea9428104ab33121666d6e272
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4353021705484734526
+    second: rotatePhone_0
+  - first:
+      213: -6000252317648090039
+    second: rotatePhone_1
+  - first:
+      213: -1438460232764500489
+    second: rotatePhone_2
+  - first:
+      213: -4808476049847874759
+    second: rotatePhone_3
+  - first:
+      213: -4106801771844276568
+    second: rotatePhone_4
+  - first:
+      213: 5090073395064733330
+    second: rotatePhone_5
+  - first:
+      213: 8922063375229363562
+    second: rotatePhone_6
+  - first:
+      213: -6219060755950944859
+    second: rotatePhone_7
+  - first:
+      213: 1587010150393370289
+    second: rotatePhone_8
+  - first:
+      213: 5868030870343565624
+    second: rotatePhone_9
+  - first:
+      213: 8874728691804091356
+    second: rotatePhone_10
+  - first:
+      213: 3503898846550283243
+    second: rotatePhone_11
+  - first:
+      213: 6205937835140110659
+    second: rotatePhone_12
+  - first:
+      213: 1607839323082820622
+    second: rotatePhone_13
+  - first:
+      213: -4507625022381340468
+    second: rotatePhone_14
+  - first:
+      213: -3429752588433019019
+    second: rotatePhone_15
+  - first:
+      213: 6873682254356591293
+    second: rotatePhone_16
+  - first:
+      213: 4026321288735461409
+    second: rotatePhone_17
+  - first:
+      213: -7267929789492401420
+    second: rotatePhone_18
+  - first:
+      213: -6683764680850624461
+    second: rotatePhone_19
+  - first:
+      213: 814830593524320703
+    second: rotatePhone_20
+  - first:
+      213: 7300281861945601508
+    second: rotatePhone_21
+  - first:
+      213: -2842089425107397599
+    second: rotatePhone_22
+  - first:
+      213: 6861081072524444818
+    second: rotatePhone_23
+  - first:
+      213: 9036067980367090051
+    second: rotatePhone_24
+  - first:
+      213: 4314636227703205806
+    second: rotatePhone_25
+  - first:
+      213: -7082050558961070943
+    second: rotatePhone_26
+  - first:
+      213: 940008283834433635
+    second: rotatePhone_27
+  - first:
+      213: 5260397636606647818
+    second: rotatePhone_28
+  - first:
+      213: -8457786638353600743
+    second: rotatePhone_29
+  - first:
+      213: 3823678574370157213
+    second: rotatePhone_30
+  - first:
+      213: 3150809420704910837
+    second: rotatePhone_31
+  - first:
+      213: 2528779895250028334
+    second: rotatePhone_32
+  - first:
+      213: -3956141876606447130
+    second: rotatePhone_33
+  - first:
+      213: 1956906490246425764
+    second: rotatePhone_34
+  - first:
+      213: -8495175321359297153
+    second: rotatePhone_35
+  - first:
+      213: -3706249011057501314
+    second: rotatePhone_36
+  - first:
+      213: -8116462141399697047
+    second: rotatePhone_37
+  - first:
+      213: 3490134941936667031
+    second: rotatePhone_38
+  - first:
+      213: -8668198010030450296
+    second: rotatePhone_39
+  - first:
+      213: 3328757735021746616
+    second: rotatePhone_40
+  - first:
+      213: -5678573388093100790
+    second: rotatePhone_41
+  - first:
+      213: 9141432296800469252
+    second: rotatePhone_42
+  - first:
+      213: -66194698810139642
+    second: rotatePhone_43
+  - first:
+      213: -8470153133322873110
+    second: rotatePhone_44
+  - first:
+      213: 7979353860100486419
+    second: rotatePhone_45
+  - first:
+      213: 6378331622446678292
+    second: rotatePhone_46
+  - first:
+      213: 8807482997544671912
+    second: rotatePhone_47
+  - first:
+      213: 903370245005683476
+    second: rotatePhone_48
+  - first:
+      213: -8382058523335731217
+    second: rotatePhone_49
+  - first:
+      213: 2868909080874270132
+    second: rotatePhone_50
+  - first:
+      213: -1492880232577474035
+    second: rotatePhone_51
+  - first:
+      213: 496310306494962385
+    second: rotatePhone_52
+  - first:
+      213: -2637506417262933718
+    second: rotatePhone_53
+  - first:
+      213: 1037929633452138294
+    second: rotatePhone_54
+  - first:
+      213: -1907580455689700977
+    second: rotatePhone_55
+  - first:
+      213: 5569250778860503535
+    second: rotatePhone_56
+  - first:
+      213: 3499840999072802455
+    second: rotatePhone_57
+  - first:
+      213: 1877139816786879562
+    second: rotatePhone_58
+  - first:
+      213: -586040085605398808
+    second: rotatePhone_59
+  - first:
+      213: -4648837505959039573
+    second: rotatePhone_60
+  - first:
+      213: 6739106457182536189
+    second: rotatePhone_61
+  - first:
+      213: 205747556704712980
+    second: rotatePhone_62
+  - first:
+      213: 6023790364042688946
+    second: rotatePhone_63
+  - first:
+      213: -427970752073708737
+    second: rotatePhone_64
+  - first:
+      213: -5581882693823328133
+    second: rotatePhone_65
+  - first:
+      213: 1922006260012418337
+    second: rotatePhone_66
+  - first:
+      213: 6629133407726042995
+    second: rotatePhone_67
+  - first:
+      213: 7870580066271723988
+    second: rotatePhone_68
+  - first:
+      213: -3947432715139301730
+    second: rotatePhone_69
+  - first:
+      213: -3039258793685981212
+    second: rotatePhone_70
+  - first:
+      213: -9181871442364619223
+    second: rotatePhone_71
+  - first:
+      213: -7902707370841860165
+    second: rotatePhone_72
+  - first:
+      213: -2060852474405921911
+    second: rotatePhone_73
+  - first:
+      213: -7085961479866856502
+    second: rotatePhone_74
+  - first:
+      213: 2299848217645435191
+    second: rotatePhone_75
+  - first:
+      213: 4403373306961926162
+    second: rotatePhone_76
+  - first:
+      213: -6994846473744241884
+    second: rotatePhone_77
+  - first:
+      213: -3816121888886153258
+    second: rotatePhone_78
+  - first:
+      213: -8421916221838461134
+    second: rotatePhone_79
+  - first:
+      213: -5714571859575022209
+    second: rotatePhone_80
+  - first:
+      213: 4901584138155169976
+    second: rotatePhone_81
+  - first:
+      213: -1020345925617640732
+    second: rotatePhone_82
+  - first:
+      213: 9179327832530262337
+    second: rotatePhone_83
+  - first:
+      213: -7604735475489473287
+    second: rotatePhone_84
+  - first:
+      213: 2139718309236667298
+    second: rotatePhone_85
+  - first:
+      213: 218294685610939976
+    second: rotatePhone_86
+  - first:
+      213: 3770924463104232774
+    second: rotatePhone_87
+  - first:
+      213: -2182914022125685663
+    second: rotatePhone_88
+  - first:
+      213: 516443245873940074
+    second: rotatePhone_89
+  - first:
+      213: 2042639205976520858
+    second: rotatePhone_90
+  - first:
+      213: 4537075179564235450
+    second: rotatePhone_91
+  - first:
+      213: -6763558908371001390
+    second: rotatePhone_92
+  - first:
+      213: 2105311238123313375
+    second: rotatePhone_93
+  - first:
+      213: -8870885741351025295
+    second: rotatePhone_94
+  - first:
+      213: 11035865515602903
+    second: rotatePhone_95
+  - first:
+      213: 7137646244165565094
+    second: rotatePhone_96
+  - first:
+      213: -5696680921874924996
+    second: rotatePhone_97
+  - first:
+      213: -5417059689481302402
+    second: rotatePhone_98
+  - first:
+      213: -267606117512888625
+    second: rotatePhone_99
+  - first:
+      213: -9124863414467076359
+    second: rotatePhone_100
+  - first:
+      213: -7353018501375325802
+    second: rotatePhone_101
+  - first:
+      213: 4955551652797203207
+    second: rotatePhone_102
+  - first:
+      213: 279130142122025626
+    second: rotatePhone_103
+  - first:
+      213: 463194866286112861
+    second: rotatePhone_104
+  - first:
+      213: -3588988099204048307
+    second: rotatePhone_105
+  - first:
+      213: 8551856785575192970
+    second: rotatePhone_106
+  - first:
+      213: 9142182660290551678
+    second: rotatePhone_107
+  - first:
+      213: 562834391736099032
+    second: rotatePhone_108
+  - first:
+      213: 1556750793299190989
+    second: rotatePhone_109
+  - first:
+      213: 7196644095277040578
+    second: rotatePhone_110
+  - first:
+      213: -5493717537944425840
+    second: rotatePhone_111
+  - first:
+      213: 4502405371188299773
+    second: rotatePhone_112
+  - first:
+      213: 6293144243481625563
+    second: rotatePhone_113
+  - first:
+      213: 3024681389358528223
+    second: rotatePhone_114
+  - first:
+      213: -6516622233066897804
+    second: rotatePhone_115
+  - first:
+      213: -3708001734908848176
+    second: rotatePhone_116
+  - first:
+      213: -1723560379889230198
+    second: rotatePhone_117
+  - first:
+      213: 6846280835932415859
+    second: rotatePhone_118
+  - first:
+      213: -6506848475563133705
+    second: rotatePhone_119
+  - first:
+      213: -6772661931962661252
+    second: rotatePhone_120
+  - first:
+      213: 7740666119632499460
+    second: rotatePhone_121
+  - first:
+      213: -432748035920390170
+    second: rotatePhone_122
+  - first:
+      213: -1578303188308015792
+    second: rotatePhone_123
+  - first:
+      213: 6360977076255297376
+    second: rotatePhone_124
+  - first:
+      213: 5183521567154176090
+    second: rotatePhone_125
+  - first:
+      213: -2856344560179839388
+    second: rotatePhone_126
+  - first:
+      213: 1014083363026092748
+    second: rotatePhone_127
+  - first:
+      213: 8089416218618325187
+    second: rotatePhone_128
+  - first:
+      213: 3263904829350712309
+    second: rotatePhone_129
+  - first:
+      213: -3867159565506130890
+    second: rotatePhone_130
+  - first:
+      213: 2674604652129635121
+    second: rotatePhone_131
+  - first:
+      213: 1453543257761958697
+    second: rotatePhone_132
+  - first:
+      213: -1399972128888682914
+    second: rotatePhone_133
+  - first:
+      213: -7684372208570927604
+    second: rotatePhone_134
+  - first:
+      213: 5546578704126193161
+    second: rotatePhone_135
+  - first:
+      213: -6599248338411695803
+    second: rotatePhone_136
+  - first:
+      213: 1264220741412005191
+    second: rotatePhone_137
+  - first:
+      213: -4730595915306646029
+    second: rotatePhone_138
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rotatePhone_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf640972d5f693c0800000000000000
+      internalID: -4353021705484734526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c0fdbce42dabca0800000000000000
+      internalID: -6000252317648090039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1005
+        width: 500
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5db822a00990ce0800000000000000
+      internalID: -1438460232764500489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b08d1528cd44db0800000000000000
+      internalID: -4808476049847874759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee64a1c85b107c0800000000000000
+      internalID: -4106801771844276568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eff71d8c293a640800000000000000
+      internalID: 5090073395064733330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1005.3334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65a1106e5981db70800000000000000
+      internalID: 8922063375229363562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb8f4413571b9a0800000000000000
+      internalID: -6219060755950944859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d22dc251360610800000000000000
+      internalID: 1587010150393370289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831cad58cfe6f6150800000000000000
+      internalID: 5868030870343565624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd333f099be592b70800000000000000
+      internalID: 8874728691804091356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_11
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d78dbf6950a030800000000000000
+      internalID: 3503898846550283243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_12
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349dea1a49bef1650800000000000000
+      internalID: 6205937835140110659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 503.33334
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c814c7851305610800000000000000
+      internalID: 1607839323082820622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc84c40bce2b171c0800000000000000
+      internalID: -4507625022381340468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f29f241321760d0800000000000000
+      internalID: -3429752588433019019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2b4dd8799346f50800000000000000
+      internalID: 6873682254356591293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1209ba631ed50e730800000000000000
+      internalID: 4026321288735461409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa63d41d50232b90800000000000000
+      internalID: -7267929789492401420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_19
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330b8935f6f7e33a0800000000000000
+      internalID: -6683764680850624461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rotatePhone_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1.3333435
+        width: 500
+        height: 502.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9432f8b1cde4b00800000000000000
+      internalID: 814830593524320703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rotatePhone_0: -4353021705484734526
+      rotatePhone_1: -6000252317648090039
+      rotatePhone_10: 8874728691804091356
+      rotatePhone_11: 3503898846550283243
+      rotatePhone_12: 6205937835140110659
+      rotatePhone_13: 1607839323082820622
+      rotatePhone_14: -4507625022381340468
+      rotatePhone_15: -3429752588433019019
+      rotatePhone_16: 6873682254356591293
+      rotatePhone_17: 4026321288735461409
+      rotatePhone_18: -7267929789492401420
+      rotatePhone_19: -6683764680850624461
+      rotatePhone_2: -1438460232764500489
+      rotatePhone_20: 814830593524320703
+      rotatePhone_3: -4808476049847874759
+      rotatePhone_4: -4106801771844276568
+      rotatePhone_5: 5090073395064733330
+      rotatePhone_6: 8922063375229363562
+      rotatePhone_7: -6219060755950944859
+      rotatePhone_8: 1587010150393370289
+      rotatePhone_9: 5868030870343565624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

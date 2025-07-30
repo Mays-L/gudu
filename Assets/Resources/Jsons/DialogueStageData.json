@@ -1,0 +1,8 @@
+﻿{
+  "stages": [
+    { "stageIndex": 1, "message": "برای نجات من بیا بالا !", "imageName": "BlackMonster" },
+    { "stageIndex": 2, "message": "برای نجات من بیا چپ !",        "imageName": "RedMonster"    },
+    { "stageIndex": 3, "message": "برای نجات من بیا پایین !.",      "imageName": "PinkMonster"    },
+    { "stageIndex": 4, "message": "برای نجات من بیا راست !",     "imageName": "kafiMonster"   }
+  ]
+}
