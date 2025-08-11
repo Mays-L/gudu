@@ -11,6 +11,8 @@ public class HouseTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            //TODO:Ino bayad akhar har bazi ke bargasht bezarim + bayad Scene Load Shod jaye har khunarm bedonim 
+            //MainGameManager.Instance.FinishStage();
 
             other.GetComponent<Player>().MoveToHouse(pointers, ways,this);
         }
