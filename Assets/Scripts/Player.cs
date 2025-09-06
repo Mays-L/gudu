@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class Player : MonoBehaviour
 
     public bool CanMove= true;
     private bool isUsed=false;
+
+
+    public Transform[] _pointsTransforms;
     private void Awake()
     {
         if (Instance == null)
@@ -27,6 +31,37 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        var pointerValues= PlayerPrefs.GetInt("WhichGameIs", 0);
+        switch (pointerValues)
+        {
+            
+            case 0:
+                MainGameManager.Instance.StartStage(1);
+                break;
+            case 1:
+                transform.position = _pointsTransforms[0].position;
+                MainGameManager.Instance.StartStage(2);
+                MainGameManager.Instance.FinishStage(2);
+                break;
+            case 2:
+                transform.position = _pointsTransforms[1].position;
+                MainGameManager.Instance.StartStage(3);
+                MainGameManager.Instance.FinishStage(3);
+
+                break;
+            case 3:
+                transform.position = _pointsTransforms[2].position;
+                MainGameManager.Instance.StartStage(4);
+                MainGameManager.Instance.FinishStage(4);
+
+                break;
+            case 4:
+               transform.position = _pointsTransforms[3].position;
+                MainGameManager.Instance.StartStage(5);
+                MainGameManager.Instance.FinishStage(5);
+
+                break;
+        }
     }
 
 

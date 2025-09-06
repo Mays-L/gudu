@@ -78,6 +78,27 @@ public class HoneyMemoryGameManager : GameManager
 
             FlyingBee.SetActive(false);
         }
+        else
+        {
+            int level = 0;
+            if (!PlayerPrefs.HasKey("H_NextLevel") || PlayerPrefs.GetInt("H_NextLevel") == 0)
+            {
+                PlayerPrefs.SetInt("H_NextLevel", 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                level = PlayerPrefs.GetInt("H_NextLevel");
+                level += 1;
+                PlayerPrefs.SetInt("H_NextLevel", level);
+                if (level > 3)
+                {
+                    Debug.Log("test- HHindex: " + SceneManager.GetActiveScene().buildIndex);
+                    PlayerPrefs.SetInt("WhichGameIs", SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(0);
+                }
+            }
+        }
     }
     #endregion
 

@@ -224,7 +224,7 @@ public abstract class GameManager : Singleton<GameManager>
                 "\"ResultsHost\" : null," +
                 "\"UserAssignmentId\" : 0," +
                 "\"RunType\" : 1," +
-                "\"AdvancedSettings\": [{\"Distractor\":0,\"Level\":2,\"Repeat\":0,\"Time\":900}]," +
+                "\"AdvancedSettings\": [{\"Distractor\":0,\"Level\":5,\"Repeat\":0,\"Time\":15}]," +
                 "\"RedirectUrl\" : \"\"}";
         }
 

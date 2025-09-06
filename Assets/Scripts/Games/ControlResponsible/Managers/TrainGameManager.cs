@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TrainGameManager : GameManager
 {
@@ -50,6 +51,27 @@ public class TrainGameManager : GameManager
             WagonsManager.Instance.RemoveAllWagons();
             ResultsHandling.Instance.ResetWrongAndRightSelectionCounters();
             Timers.Instance.StartTimer(2.5f, ProcessGameStates);
+        }
+        else
+        {
+            int level = 0;
+            if (!PlayerPrefs.HasKey("T_NextLevel") || PlayerPrefs.GetInt("T_NextLevel") == 0)
+            {
+                PlayerPrefs.SetInt("T_NextLevel", 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                level = PlayerPrefs.GetInt("T_NextLevel");
+                level += 1;
+                PlayerPrefs.SetInt("T_NextLevel", level);
+                if (level > 3)
+                {
+                    Debug.Log("test- Trainindex: " + SceneManager.GetActiveScene().buildIndex);
+                    PlayerPrefs.SetInt("WhichGameIs", SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(0);
+                }
+            }
         }
     }
 

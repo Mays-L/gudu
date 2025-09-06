@@ -6,7 +6,7 @@ public struct PlayerLevelData
     {
         get
         {
-            return LevelNumber;
+            return levelNumber;
         }
         set
         {

@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CloudsGameManager : GameManager
 {
@@ -79,6 +80,27 @@ public class CloudsGameManager : GameManager
             ResultsHandling.Instance.ResetWrongAndRightSelectionCounters();
             Timers.Instance.StartTimer(1f, ProcessGameStates);
             DestructorsManager.Instance.SetAllDeactive();
+        }
+        else
+        {
+            int level = 0;
+            if (!PlayerPrefs.HasKey("C_NextLevel") || PlayerPrefs.GetInt("C_NextLevel") == 0)
+            {
+                PlayerPrefs.SetInt("C_NextLevel", 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                level = PlayerPrefs.GetInt("C_NextLevel");
+                level += 1;
+                PlayerPrefs.SetInt("C_NextLevel", level);
+                if(level > 3)
+                {
+                    Debug.Log("test- index: " + SceneManager.GetActiveScene().buildIndex);
+                    PlayerPrefs.SetInt("WhichGameIs",SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(0);
+                } 
+            }
         }
     }
     #endregion

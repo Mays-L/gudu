@@ -59,6 +59,27 @@ public class HighwayGameManager: GameManager
             CarManager.Instance.StopSpawning();
             Timers.Instance.StartTimer(1.5f, ProcessGameStates);
         }
+        else
+        {
+            int level = 0;
+            if (!PlayerPrefs.HasKey("H_NextLevel") || PlayerPrefs.GetInt("H_NextLevel") == 0)
+            {
+                PlayerPrefs.SetInt("H_NextLevel", 1);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                level = PlayerPrefs.GetInt("H_NextLevel");
+                level += 1;
+                PlayerPrefs.SetInt("H_NextLevel", level);
+                if (level > 3)
+                {
+                    Debug.Log("test- Hindex: " + SceneManager.GetActiveScene().buildIndex);
+                    PlayerPrefs.SetInt("WhichGameIs", SceneManager.GetActiveScene().buildIndex);
+                    SceneManager.LoadScene(0);
+                }
+            }
+        }
     }
     #endregion
 

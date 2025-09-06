@@ -30,13 +30,8 @@ public class MainGameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+           // DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
-
         // load dialog & image info once at startup
         TextAsset json = Resources.Load<TextAsset>("Jsons/DialogueStageData");
         var wrapper = JsonUtility.FromJson<DialogueStageDataList>(json.text);
@@ -46,14 +41,14 @@ public class MainGameManager : MonoBehaviour
     void Start()
     {
         // Automatically start the first stage
-        StartStage(1);
+        //StartStage(1);
     }
 
     // Begin a new stage
     public void StartStage(int stageIndex)
     {
         currentStageIndex = stageIndex;
-        Debug.Log("in StartStage and currentStageIndex : " + currentStageIndex);
+        Debug.Log("nt-- in StartStage and currentStageIndex : " + currentStageIndex);
         initialDialogShown = false;
 
         currentStage = new StageData
@@ -61,7 +56,7 @@ public class MainGameManager : MonoBehaviour
             stageIndex = stageIndex,
             stageStartTime = Time.time
         };
-
+        
         // setup the animal button & image for this stage
         var data = stageDataList.Find(d => d.stageIndex == stageIndex);
         Sprite sprite = Resources.Load<Sprite>("MonstersSprite/" + data.imageName);
@@ -124,8 +119,9 @@ public class MainGameManager : MonoBehaviour
     //}
 
     // Called when player reaches the correct house
-    public void FinishStage()
+    public void FinishStage(int nextstage)
     {
+        Debug.Log("nt-- in FinishStage");
         currentStage.stageEndTime = Time.time;
         currentSession.allStages.Add(currentStage);
         Debug.Log("You Won");
@@ -133,21 +129,23 @@ public class MainGameManager : MonoBehaviour
         //SceneManager.LoadScene("MiniGameScene");
 
         // temp: for test
-        ReturnFromMiniGame();
+        ReturnFromMiniGame(nextstage);
     }
 
     // Called by the mini-game when it ends
-    public void ReturnFromMiniGame()
+    public void ReturnFromMiniGame(int nextstage)
     {
-        Debug.Log("in ReturnFromMiniGame");
-        int nextStage = currentStage.stageIndex + 1;
-        if (nextStage <= 4)
+        Debug.Log("nt-- in ReturnFromMiniGame");
+        //int nextStage = currentStage.stageIndex + 1;
+        if (nextstage <= 5)
         {
+            Debug.Log("nt-- in next<4");
             //SceneManager.LoadScene("MainScene");
-            StartStage(nextStage);
+            StartStage(nextstage);
         }
         else
         {
+            Debug.Log("nt-- in else");
             // TODO: show final summary or end-game UI
         }
     }
